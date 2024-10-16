@@ -1,4 +1,5 @@
-FROM almalinux:9
+ARG version
+FROM almalinux:${version}
 ARG name="Prudviraj" \
     birth="16-09-1993" \
     place= "Rajam"
